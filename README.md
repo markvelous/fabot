@@ -1,4 +1,4 @@
-# FABOT the Remarkable Flashloan Arbitrage Bot
+# Remarkable Flashloan Arbitrage Bot (FABOT)
 
 Time to make some fictitious arbitrages between Uniswap V2 and Sushiswap
 
