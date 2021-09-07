@@ -2,7 +2,8 @@
 
 Time to make some fictitious arbitrages between Uniswap V2 and Sushiswap
 
-Bot is still a work in progress <br/>
+>Bot is still a work in progress ... 
+
 In consideration of CSA, this bot has not been deployed live (yet) and is used to demonstrate the understanding of the subject
 
 This demo shows the bot in action on a forked ethereum mainnet.
@@ -51,13 +52,15 @@ LOCAL_DEPLOYMENT = true
 VALID_PERIOD = 5
 ```
 
+`I am still working on this ...`
+
 Execute the bot for flashswap or normalswap
 ```bash
 node ./src/bot_flashswap.js
 #or
 node ./src/bot_normalswap.js
 ```
-Once there is an arbitrage (shown in the console logs), stop the bot (Ctrl-C)
+Once there is an arbitrage (shown in the console logs), stop the bot (Ctrl-C). 
 
 ## License
 
