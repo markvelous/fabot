@@ -9,10 +9,10 @@ const IRouter = require('@uniswap/v2-periphery/build/IUniswapV2Router02.json')
 const Utils = require('../build/contracts/Utils.json')
 const IERC20 = require('@uniswap/v2-periphery/build/IERC20.json')
 
-//importing parameters from .env (mostly given)
+// import parameters from .env 
 const addrArbitrager = process.env.ADDR_ARBITRAGE_CONTRACT
 const addrDai = process.env.ADDR_DAI
-const addrEth = process.env.ADDR_ETH//indeed its weth, henceforth simply eth
+const addrEth = process.env.ADDR_ETH // wETH
 const addrSFactory = process.env.ADDR_SFACTORY
 const addrSRouter = process.env.ADDR_SROUTER
 let addrToken0 = process.env.ADDR_TOKEN0

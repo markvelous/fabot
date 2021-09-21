@@ -4,7 +4,7 @@ Time to make some fictitious arbitrages between Uniswap V2 and Sushiswap
 
 >Bot is still a work in progress ... 
 
-In consideration of the iron fist of [CSA](https://www.csa.gov.sg/), this bot has not been deployed live (yet) and is used to demonstrate the understanding of the subject for the fulfilment of SGBT4 (...I know)
+In consideration of the iron fist of [CSA](https://www.csa.gov.sg/), this bot has not been deployed live (yet) and is used to demonstrate the understanding of the subject for the fulfilment of SGBT4 `(... I know)`
 
 This demo shows the bot in action on a forked ethereum mainnet.
 
@@ -18,7 +18,8 @@ git clone https://github.com/sushiswap/sushiswap.git
 
 Open a new terminal and run the following with the RPC URL
 ```bash
-ganache-cli --fork https://rinkeby.infura.io/v3/[API KEY] -b 2 -d
+ganache-cli --fork https://ropsten.infura.io/v3/[API KEY] -b 2 -d
+
 ```
 
 Run the demo script with either a or b option 
@@ -52,7 +53,10 @@ LOCAL_DEPLOYMENT = true
 VALID_PERIOD = 5
 ```
 
-`I am still working on this ...`
+```
+I am still working on this ...
+Anyone interested to co-develop this is most welcomed!
+```
 
 Execute the bot for flashswap or normalswap
 ```bash

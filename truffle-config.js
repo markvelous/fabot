@@ -27,3 +27,5 @@ module.exports = {
     },
   },
 };
+
+// ganache-cli --fork https://ropsten.infura.io/v3/618b25aa58eb434f867378c386f3f44c -b 2 -d
