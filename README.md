@@ -17,10 +17,16 @@ git clone https://github.com/sushiswap/sushiswap.git
 ```
 
 Open a new terminal and run the following with the RPC URL
+
 ```bash
 ganache-cli --fork https://ropsten.infura.io/v3/[API KEY] -b 2 -d
 
 ```
+
+> Using Ropsten as a preventive measure, in case the bot went wild & lost all the test tokens
+
+> Sidenote: Ganache command-line interface (CLI) is a test RPC used to emulate the blockchain locally. It is fast, has zero txn cost, provides a fixed amount of test ETH and has a simple console interface to view the testchain events. 'b 2' refers to automatic mining at intervals of 2 seconds (default is 0, no auto-mining), and 'd' is to create deterministic addresses based on pre-defined mnemonics for dev.
+
 
 Run the demo script with either a or b option 
 ```bash

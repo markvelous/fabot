@@ -15,7 +15,7 @@ module.exports = {
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "1",       // Any network (default: none)
      },
-     ropsten: {
+     ropsten: {              // Using Ropsten (instead of Rinkeby) as a risk mgmt strategy; in case something untoward happens & all ethers are lost
       url:`wss://ropsten.infura.io/ws/v3/${projectId}`,
       network_id: '3',
       websockets: true
