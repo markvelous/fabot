@@ -4,7 +4,7 @@ Time to make some fictitious arbitrages between Uniswap V2 and Sushiswap
 
 >Bot is still a work in progress ... 
 
-In consideration of the iron fist of [CSA](https://www.csa.gov.sg/), this bot has not been deployed live (yet) and is used to demonstrate the understanding of the subject for the fulfilment of SGBT4 `(... I know)`
+In consideration of the iron fist of [CSA](https://www.csa.gov.sg/), this bot has not been deployed live `(... I know)`
 
 This demo shows the bot in action on a forked ethereum mainnet.
 
